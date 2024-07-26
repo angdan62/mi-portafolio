@@ -1,0 +1,23 @@
+
+.aboutContainer{
+    width: 100%;
+    margin: 48px 0 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.aboutText{
+    width: 50%;
+}
+
+.aboutLogo{
+    width: 380px;
+}
+
+.aboutLogo img{
+    width: 100%;
+    border-radius: 50%;
+}
