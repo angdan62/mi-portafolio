@@ -1,23 +1,32 @@
 
 .aboutContainer{
     width: 100%;
-    margin: 48px 0 48px 0;
+    margin: 48px 0 0 0;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 48px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-bottom: 2px solid #505045;
+}
+
+.aboutContainer > div{
+    width: 80%;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.aboutText{
-    width: 50%;
-}
-
-.aboutLogo{
-    width: 380px;
-}
-
-.aboutLogo img{
+.aboutMeInfo{
     width: 100%;
-    border-radius: 50%;
+    text-align: justify;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
 }
