@@ -8,7 +8,12 @@
     justify-content: space-around;
     align-items: center;
 }
-
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .headerNav{
     display: flex;
     gap: 12px;

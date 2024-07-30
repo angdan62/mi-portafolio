@@ -1,21 +1,24 @@
 
 .container{
-    width: 80%;
-    margin-top: 48px;
+    width: 100%;
     text-align: justify;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 48px;
-    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .title{
-    width: 60%;
+    width: auto;
+    
 }
 
 .title h3{
     font-weight: normal;
+}
+
+.title h2{
+    margin: 0;
 }
 
 .netwoksList{
@@ -23,13 +26,33 @@
     padding: 0;
     list-style: none;
     display: flex;
-    gap: 48px;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .logo{
+    min-width: 280px;
     max-width: 280px;
+    margin-right: 12px;
 }
 
 .logo img{
     width: 100%;
 }
+
+
+
+/* mediaquery al llegar a los 1024px
+para que el banner title tenga el 100% de width */
+
+@media (max-width: 1024px) {
+    /* … */
+.container{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    .title{
+        width: 100%;
+    }
+  }

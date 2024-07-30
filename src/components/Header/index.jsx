@@ -6,15 +6,18 @@ import { IoHomeOutline, IoChatboxOutline, IoCafeOutline, IoDesktopOutline } from
 function Header(){
     return(<>
         <header className={styles.headerContainer}>
+            <div className={styles.container}>
             <div className={styles.headerLogo}>
                 <img src={logo} alt="Logo" />
             </div>
             <nav className={styles.headerNav}>
-                <HeaderLink url="./" logo={<IoHomeOutline />}>Inicio</HeaderLink>
-                <HeaderLink url="./aboutme" logo={<IoCafeOutline />}>Sobre mi</HeaderLink>
-                <HeaderLink url="./proyects" logo={<IoDesktopOutline />}>Portafolio</HeaderLink>
-                <HeaderLink url="./contact" logo={<IoChatboxOutline />}>Contacto</HeaderLink>
+                <HeaderLink url="/" logo={<IoHomeOutline />}>Inicio</HeaderLink>
+                <HeaderLink url="/aboutme" logo={<IoCafeOutline />}>Sobre mi</HeaderLink>
+                <HeaderLink url="/proyects" logo={<IoDesktopOutline />}>Portafolio</HeaderLink>
+                <HeaderLink url="/contact" logo={<IoChatboxOutline />}>Contacto</HeaderLink>
             </nav>
+            </div>
+
         </header>
     </>)
 }

@@ -1,6 +1,6 @@
 import styles from "./SectionCard.module.css";
 
-export function SectionCard({logo, title}){
+export default function SectionCard({logo, title}){
     return(<>
         <div className={styles.container}>
             <ul className={styles.cardList}>

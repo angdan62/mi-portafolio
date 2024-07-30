@@ -4,9 +4,6 @@ function AboutMe() {
   return (
     <>
       <div className={styles.aboutContainer}>
-        <div className={styles.aboutMe}>
-          <h1>SOBRE MI</h1>
-          <div className={styles.aboutMeInfo}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat,
               libero magna et netus iaculis massa porta at, ullamcorper diam
@@ -28,50 +25,6 @@ function AboutMe() {
               magnis montes facilisis conubia orci odio proin nunc, nascetur
               ridiculus tellus massa mi cras tempor augue.
             </p>
-          </div>
-        </div>
-        <div className={styles.studies}>
-          <h1>MIS ESTUDIOS</h1>
-          <div className={styles.studiesList}>
-            <ul>
-              <li>
-                2023. Ingeniería en Sistemas Computacionales. Utel Universidad.
-                Titulado.
-              </li>
-              <li>
-                2023. Ingeniería en Sistemas Computacionales. Utel Universidad.
-                Titulado.
-              </li>
-              <li>
-                2023. Ingeniería en Sistemas Computacionales. Utel Universidad.
-                Titulado.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className={styles.workExperience}>
-          <h1>MI EXPERIENCIA LABORAL</h1>
-          <div className={styles.workExperienceList}>
-            <ul>
-              <li>
-                2024 - Actualidad. Procuraduría General de Justicia del Estado
-                de BCS. Encargado de tecnologías en zona sur.
-              </li>
-              <li>
-                2024 - Actualidad. Procuraduría General de Justicia del Estado
-                de BCS. Encargado de tecnologías en zona sur.
-              </li>
-              <li>
-                2024 - Actualidad. Procuraduría General de Justicia del Estado
-                de BCS. Encargado de tecnologías en zona sur.
-              </li>
-              <li>
-                2024 - Actualidad. Procuraduría General de Justicia del Estado
-                de BCS. Encargado de tecnologías en zona sur.
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </>
   );

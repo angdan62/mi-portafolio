@@ -11,10 +11,10 @@ function Banner() {
           <img src={photoMe} alt="AboutMe" />
         </div>
         <div className={styles.title}>
-          <h1>
+          <h2>
             Hola, mi nombre es Angel Cesar Villa Flores y este es mi portafolio
             trabajo.
-          </h1>
+          </h2>
           <h3>
             Soy ingeniero en Sistemas, que comienza en el fascinante mundo del
             desarrollo web. Actualmente, estoy aprendiendo y perfeccionando mis
