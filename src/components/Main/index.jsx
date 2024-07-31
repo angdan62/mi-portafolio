@@ -4,6 +4,7 @@ import AboutMe from "../AboutMe";
 import SectionInfo from "../SectionInfo";
 import SectionsCards from "../SectionsCards";
 import AcademySection from "../AcademySection";
+import ProfessionalExperience from "../ProfessionalExperience";
 
 function Main() {
   return (
@@ -23,7 +24,9 @@ function Main() {
       <SectionInfo title="FORMACIÓN">
         <AcademySection />
       </SectionInfo>
-      <SectionInfo title="EXPERIENCIA PROFESIONAL"></SectionInfo>
+      <SectionInfo title="EXPERIENCIA PROFESIONAL">
+        <ProfessionalExperience />
+      </SectionInfo>
       <SectionInfo title="PROYECTOS WEB DESARROLLADOS"></SectionInfo>
       <SectionInfo title="CONTACTO"></SectionInfo>
     </div>
