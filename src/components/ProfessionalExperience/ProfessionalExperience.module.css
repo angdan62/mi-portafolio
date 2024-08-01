@@ -7,3 +7,12 @@
     gap: 48px;
     flex-wrap: wrap;
 }
+
+@media (min-width: 1800px) {
+    /* … */
+    .container{
+        justify-content: space-between;
+        
+    }
+
+}
