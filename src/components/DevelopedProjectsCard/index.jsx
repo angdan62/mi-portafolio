@@ -1,7 +1,7 @@
-import styles from "./ProfessionalExperienceCard.module.css";
+import styles from "./DevelopedProjectsCard.module.css";
 import logo from "../../img/professionalExperience/decod_print.png";
 
-export default function ProfessionalExperienceCard() {
+export default function DevelopedProjectsCard() {
   return (
     <>
       <div className={styles.container}>

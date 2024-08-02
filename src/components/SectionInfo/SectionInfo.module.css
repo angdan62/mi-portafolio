@@ -17,4 +17,11 @@
 
 .component{
     width: 80%;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap:24px
 }
