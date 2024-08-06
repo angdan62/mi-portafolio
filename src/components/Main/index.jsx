@@ -6,6 +6,7 @@ import SectionsCards from "../SectionsCards";
 import AcademySection from "../AcademySection";
 import DevelopedProjects from "../DevelopedProjects";
 import ProfessionalExperience from "../ProfessionalExperience";
+import ContactMe from "../ContactMe";
 
 function Main() {
   return (
@@ -31,7 +32,9 @@ function Main() {
       <SectionInfo title="PROYECTOS WEB DESARROLLADOS">
         <DevelopedProjects />
       </SectionInfo>
-      <SectionInfo title="CONTACTO"></SectionInfo>
+      <SectionInfo title="CONTACTO">
+        <ContactMe />
+      </SectionInfo>
     </div>
   );
 }

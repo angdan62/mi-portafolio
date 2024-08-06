@@ -1,0 +1,57 @@
+
+.container{
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.formText{
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.text, .textarea, .button{
+    width: 100%;
+    min-height: 56px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.textarea{
+    min-height: 120px;
+}
+
+.button{
+    width: 25%;
+    background: #2A7AE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.text:focus, .textarea:focus{
+    border-color: #007BFF;
+}

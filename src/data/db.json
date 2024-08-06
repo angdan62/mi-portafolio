@@ -1,0 +1,119 @@
+{
+    "skills":[
+        {
+            "id": 1,
+            "name": "HTML",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "name": "JAVASCRIPT",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "name": "REACT",
+            "image": ""
+        }
+    ],
+    "hobbies":[
+        {
+            "id": 1,
+            "name": "VIDEOJUEGOS",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "name": "MÚSICA",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "name": "TECNOLOGÍAS",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "name": "VER SERIES",
+            "image": ""
+        }
+    ],
+    "formación":[
+        {
+            "id":1,
+            "title": "INGENIERIA EN SISTEMAS COMPUTACIONALES",
+            "date": "2023",
+            "campus": "Universidad Utel",
+            "image": ""
+        },
+        {
+            "id":2,
+            "title": "FORMACIÓN EN UI DESIGN",
+            "date": "2024",
+            "campus": "Alura Latam",
+            "image": ""
+        },
+        {
+            "id":3,
+            "title": "INGENIERIA EN SISTEMAS COMPUTACIONALES",
+            "date": "2018",
+            "campus": "Instituto Tecnologico de La Paz",
+            "image": ""
+        }
+    ],
+    "professionalExperience":[
+        {
+            "id":1,
+            "title": "ENCARGADO DE SISTEMAS",
+            "date": "2017 - 2023",
+            "campus": "Procuraduria General de Justicia del Estado",
+            "image": ""
+        },
+        {
+            "id":2,
+            "title": "AUXILIAR DE SISTEMAS",
+            "date": "2023 - 2024",
+            "campus": "Alura Latam",
+            "image": ""
+        },
+        {
+            "id":3,
+            "title": "ENCARGADO DE SISTEMAS",
+            "date": "2024",
+            "campus": "Procuraduria General de Justicia del Estado",
+            "image": ""
+        }
+    ],
+    "developmentWeb":[
+        {
+            "id":1,
+            "title": "Encriptador de texto",
+            "description": "Challenge Alura Latam",
+            "repo": "",
+            "demo": "",
+            "image": ""
+        },
+        {
+            "id":2,
+            "title": "AluraFlix",
+            "description": "Challenge Alura Latam",
+            "repo": "",
+            "demo": "",
+            "image": ""
+        },
+        {
+            "id":3,
+            "title": "Nasa Space",
+            "description": "Challenge Alura Latam",
+            "repo": "",
+            "demo": "",
+            "image": ""
+        }
+    ]
+    
+}
